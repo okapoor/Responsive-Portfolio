@@ -1,0 +1,532 @@
+#mainpage {
+	background-image: url(../images/background-image.png);
+	width: 1280px;
+}
+
+#mainheader {
+	position: relative;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	background-color: #ffffff;
+	width: 1280px;
+	height: 80px;
+	border-color: grey;
+
+}
+
+#myname {
+	position: relative;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	right: -100px;
+	background-color: #4aaaa5;
+	padding: 25px 20px 25px 20px;
+	float: left;
+	display: block;
+  	text-align: center;
+	font-size: 30px;
+}
+
+
+
+#navstyle {
+	position: absolute;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	right: 100px;
+	padding: 27.5px 20px 27.5px 20px;
+	float: left;
+	display: block;
+  	text-align: center;
+	font-size: 25px;
+}
+
+.AboutMe {
+	color: black;
+	position: relative;
+	width: 680px;
+	padding: 10px 10px 10px 10px;
+	left: 50px;
+ 	margin: 0;
+ 	margin-bottom: 20px;
+ 	font-size: 20px;
+ 	color: #eee;
+ 	text-align: center;
+	background-color: #ffffff;
+}
+
+
+.paraabout {
+	color: black;
+}
+
+#aboutmeheader {
+	font-size: 40px;
+	text-align: left;
+	padding: 10px 10px 10px 10px;
+	color: black;
+}
+
+.icons {
+	width: 30%;
+}
+#img_id {
+	float: left;
+	height: 150px;
+    width: 30%;
+}
+
+h1 {
+	color: black;
+}
+.ConnectWithMe {
+	position: absolute;
+	left: 900px;
+	top: 150px;
+	width: 270px;
+	  padding: 20px 0;
+	  margin: 0;
+	  margin-bottom: 20px;
+	  font-size: 28px;
+	  color: #eee;
+	  text-align: center;
+	  background-color: #ffffff;
+
+}
+
+a {
+	color: black;
+}
+.navbar {
+	border-right-style: solid;
+	border-right: thick solid #F0F8FF;
+	padding: 0px 15px 0px 0px;
+}
+
+
+.Portfolio {
+	position: relative;
+	color: black;
+	width: 680px;
+	height: 1200px;
+	padding: 10px 10px 10px 10px;
+	left: 50px;
+ 	margin: 0;
+ 	margin-bottom: 20px;
+ 	font-size: 20px;
+ 	text-align: center;
+	background-color: #ffffff;
+	z-index: -1;
+}
+
+.AboutMe {
+	position: relative;
+	color: black;
+	width: 680px;
+	padding: 10px 10px 10px 10px;
+	left: 50px;
+ 	margin: 0;
+ 	margin-bottom: 20px;
+ 	font-size: 20px;
+ 	text-align: center;
+	background-color: #ffffff;
+	z-index: -1;
+
+}
+
+#contactheader {
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	text-align: left;
+	font-size: 40px;
+	padding: 20px 20px 20px 20px;
+
+}
+
+.contact_me {
+	text-align: left;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	padding: 20px 20px 20px 20px;
+}
+
+.inputstuff{
+	width: 500px;
+	padding: 20px 20px 20px 20px;
+}
+
+#portfolio_header {
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	text-align: left;
+	font-size: 40px;
+	padding: 20px 20px 20px 20px;
+
+}
+
+.row {
+	float: left;
+	width: 40%;
+	margin: 10px 30px 10px 30px;
+}
+
+.projectimage {
+	position: relative;
+	width: 250px;
+	height: 250px;
+	left: -30px;
+	margin: 10px 10px 10px 25px;
+
+}
+
+.projectname {
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	color: white;
+	position: relative;
+	width: 210px;
+	padding: 20px 20px 20px 20px;
+	background-color: #4aaaa5;
+	left:-5px;
+	top: 200px;
+	z-index: 1;
+
+}
+
+.row2 {
+	float: left;
+	width: 50%
+}
+
+.row3 {
+	float: left;
+	width: 50%
+}
+
+.footerrelative {
+    position: relative;
+    left: 0;
+    bottom: 0;
+    height: 50px;
+    background-color: grey;
+    width: 100%;
+}
+
+.footerabsolute {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 50px;
+    background-color: grey;
+    width: 100%;
+}
+
+#footertext {
+    color: white;
+    padding: 10px 0px 10px 0px;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 640px) {
+  /* The body's bg color will be #333 */
+#mainheader {
+	position: relative;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	background-color: #ffffff;
+	width: 640px;
+	height: 50px;
+	border-color: grey;
+}
+
+#myname {
+	position: relative;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	right: -100px;
+	background-color: #4aaaa5;
+	padding: 15px 10px 15px 10px;
+	float: left;
+	display: block;
+  	text-align: center;
+	font-size: 20px;
+}
+
+#navstyle {
+	position: absolute;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	right: 100px;
+	padding: 17.5px 10px 17.5px 10px;
+	float: left;
+	display: block;
+  	text-align: center;
+	font-size: 15px;
+}
+
+.AboutMe {
+	color: black;
+	position: relative;
+	width: 400px;
+	padding: 10px 10px 10px 10px;
+	left: 50px;
+ 	margin: 0;
+ 	margin-bottom: 80px;
+ 	font-size: 20px;
+ 	color: #eee;
+ 	text-align: center;
+	}
+
+.Portfolio {
+	position: relative;
+	color: black;
+	width: 400px;
+	height: 2400px;
+	padding: 10px 10px 10px 10px;
+	left: 50px;
+ 	margin: 0;
+ 	margin-bottom: 80px;
+ 	font-size: 20px;
+ 	text-align: center;
+	background-color: #ffffff;
+	z-index: -1;
+}
+
+
+.ConnectWithMe {
+	position: relative;
+	left: 50px;
+	top: 30px;
+	width: 400px;
+	  padding: 10px 10px 10px 10px;
+	  margin: 0;
+	  margin-bottom: 10px;
+	  font-size: 15px;
+	  color: #eee;
+	  text-align: center;
+	  background-color: #ffffff;
+
+}
+
+.inputstuff{
+	color: black;
+	width: 300px;
+	padding: 20px 20px 20px 20px;
+}
+.contact_me {
+	text-align: left;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-size: 15px;
+	color: black;
+	padding: 20px 20px 20px 20px;
+}
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 768px) and (min-width: 640px) {
+  /* The body's bg color will be #333 */
+#mainheader {
+	position: relative;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	background-color: #ffffff;
+	width: 980px;
+	height: 50px;
+}
+
+#myname {
+	position: relative;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	right: -100px;
+	background-color: #4aaaa5;
+	padding: 15px 10px 15px 10px;
+	float: left;
+	display: block;
+  	text-align: center;
+	font-size: 20px;
+}
+
+#navstyle {
+	position: absolute;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	right: 270px;
+	padding: 17.5px 10px 17.5px 10px;
+	float: left;
+	display: block;
+  	text-align: center;
+	font-size: 20px;
+}
+
+
+.AboutMe {
+	color: black;
+	position: relative;
+	width: 400px;
+	padding: 10px 10px 10px 10px;
+	left: 50px;
+ 	margin: 0;
+ 	margin-bottom: 20px;
+ 	font-size: 20px;
+ 	color: #eee;
+ 	text-align: center;
+	background-color: #ffffff;
+}
+
+.ConnectWithMe {
+	position: absolute;
+	left: 550px;
+	top: 150px;
+	width: 170px;
+	  padding: 20px 0;
+	  margin: 0;
+	  margin-bottom: 20px;
+	  font-size: 20px;
+	  color: #eee;
+	  text-align: center;
+	  background-color: #ffffff;
+
+}
+
+.Portfolio {
+	position: relative;
+	color: black;
+	width: 400px;
+	height: 2400px;
+	padding: 10px 10px 10px 10px;
+	left: 50px;
+ 	margin: 0;
+ 	margin-bottom: 80px;
+ 	font-size: 20px;
+ 	text-align: center;
+	background-color: #ffffff;
+	z-index: -1;
+}
+.inputstuff{
+	color: black;
+	width: 300px;
+	padding: 20px 20px 20px 20px;
+}
+.contact_me {
+	text-align: left;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-size: 15px;
+	color: black;
+	padding: 20px 20px 20px 20px;
+}
+}
+
+
+
+
+@media screen and (min-width: 768px) and (max-width: 980px) {
+  /* The body's bg color will be #333 */
+#mainheader {
+	position: relative;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	background-color: #ffffff;
+	width: 980px;
+	height: 60px;
+}
+
+#myname {
+	position: relative;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	right: -100px;
+	background-color: #4aaaa5;
+	padding: 15px 10px 15px 10px;
+	float: left;
+	display: block;
+  	text-align: center;
+	font-size: 30px;
+}
+
+#navstyle {
+	position: absolute;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	right: 180px;
+	padding: 17.5px 10px 17.5px 10px;
+	float: left;
+	display: block;
+  	text-align: center;
+	font-size: 25px;
+}
+
+.ConnectWithMe {
+	position: absolute;
+	left: 600px;
+	top: 150px;
+	width: 200px;
+	  padding: 20px 0;
+	  margin: 0;
+	  margin-bottom: 20px;
+	  font-size: 24px;
+	  color: #eee;
+	  text-align: center;
+	  background-color: #ffffff;
+
+}
+
+.AboutMe {
+	color: black;
+	position: relative;
+	width: 500px;
+	padding: 10px 10px 10px 10px;
+	left: 50px;
+ 	margin: 0;
+ 	margin-bottom: 20px;
+ 	font-size: 20px;
+ 	color: #eee;
+ 	text-align: center;
+	background-color: #ffffff;
+}
+
+.Portfolio {
+	position: relative;
+	color: black;
+	width: 500px;
+	height: 2400px;
+	padding: 10px 10px 10px 10px;
+	left: 50px;
+ 	margin: 0;
+ 	margin-bottom: 80px;
+ 	font-size: 20px;
+ 	text-align: center;
+	background-color: #ffffff;
+	z-index: -1;
+}
+.inputstuff{
+	color: black;
+	width: 300px;
+	padding: 20px 20px 20px 20px;
+}
+.contact_me {
+	text-align: left;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-size: 15px;
+	color: black;
+	padding: 20px 20px 20px 20px;
+}
+
+}
